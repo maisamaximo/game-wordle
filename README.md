@@ -10,18 +10,35 @@
 
 <p style="font-size: 1.2rem; text-align: center;">A clone of the Wordle game in JavaScript, with the added benefit of using API's to generate random 5-letter words and verify that the words we are using for our guesses exist!</p>
 
-https://user-images.githubusercontent.com/16991001/172200292-7fcfe4e2-3af5-4377-bac9-43c4e035ff35.mov
-![ezgif-3-c94e8d48c1](https://user-images.githubusercontent.com/16991001/172221624-8504fa3b-b1ce-4fe7-9c05-7efb6ea2ca2a.gif)
+<div style="display: flex">
+  <img src="./assets/gif/demo.gif" style="justify-content: center; align-item: center; padding-inline: 10rem" width=100% />
+</div>
 
 ## API
 
 > Random Word API: https://bit.ly/random-word-api
 > Dictionary API: https://bit.ly/dictionary-api
 
+## Getting Started
+
+To start this project please go to RapidAPI to sign up for the APIs.
+
+_Create a .env file in the root of your project with the following:_
+
+```sh
+RAPID_API_KEY={your_rapid_api_key}
+```
+
 ## Install
 
 ```sh
 npm install
+```
+
+## Run backend
+
+```sh
+npm run start:backend
 ```
 
 ## Run tests
@@ -30,10 +47,13 @@ npm install
 npm run test
 ```
 
+This will start the backend on http://localhost:8000.
+
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Project developed with the support of the tutorial made by @kubowania.
+Here's the video: [Wordle JS](https://www.youtube.com/watch?v=mpby4HiElek&t=26s)
 
+##### [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
 ---
 
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
