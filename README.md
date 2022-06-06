@@ -10,9 +10,7 @@
 
 <p style="font-size: 1.2rem; text-align: center;">A clone of the Wordle game in JavaScript, with the added benefit of using API's to generate random 5-letter words and verify that the words we are using for our guesses exist!</p>
 
-
-https://user-images.githubusercontent.com/16991001/172198729-a35a8458-6bc4-425c-acc4-f6c3dfbb1e94.mov
-
+https://user-images.githubusercontent.com/16991001/172198896-5bb038bb-a732-4d89-ba0a-e97e66cdcb36.mov
 
 ## API
 
